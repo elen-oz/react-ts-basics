@@ -1,1 +1,1 @@
-# react-ts-basics
+# react-ts-course
