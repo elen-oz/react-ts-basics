@@ -26,7 +26,7 @@ export default function BookSession({ session, onDone }: BookSessionProps) {
 
     const formData = new FormData(event.currentTarget);
     const data = Object.fromEntries(formData);
-    console.log(data); // would normally be sent to a server, together with session data
+    console.log(data);
     sessionsCtx.bookSession(session);
     onDone();
   }
